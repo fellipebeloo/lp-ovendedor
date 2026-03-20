@@ -15,10 +15,10 @@ export default function Footer() {
           </span>
         </h2>
 
-        <button className="group relative inline-flex items-center justify-center gap-3 bg-brand-600 hover:bg-brand-500 text-white font-bold text-lg px-10 py-5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)] focus:ring-4 focus:ring-brand-500/50 mb-16 w-full sm:w-auto">
+        <a href="https://pay.kiwify.com.br/lo9JhQG" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-3 bg-brand-600 hover:bg-brand-500 text-white font-bold text-lg px-10 py-5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)] focus:ring-4 focus:ring-brand-500/50 mb-16 w-full sm:w-auto">
           Garantir minha vaga por R$ 97
           <ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-2" />
-        </button>
+        </a>
 
         <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 pt-8 border-t border-slate-800/80 text-slate-500 text-sm">
           <p>© {new Date().getFullYear()} O Vendedor. Todos os direitos reservados.</p>

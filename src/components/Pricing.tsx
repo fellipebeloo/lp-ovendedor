@@ -32,10 +32,10 @@ export default function Pricing() {
               Pagamento único · acesso imediato
             </p>
 
-            <button className="w-full group relative flex items-center justify-center gap-3 bg-brand-600 hover:bg-brand-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_-5px_rgba(249,115,22,0.4)] focus:ring-4 focus:ring-brand-500/50">
+            <a href="https://pay.kiwify.com.br/lo9JhQG" target="_blank" rel="noopener noreferrer" className="w-full group relative flex items-center justify-center gap-3 bg-brand-600 hover:bg-brand-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_-5px_rgba(249,115,22,0.4)] focus:ring-4 focus:ring-brand-500/50">
               Quero participar do treinamento
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-            </button>
+            </a>
             <div className="flex items-center justify-center gap-2 mt-6 text-sm text-slate-400">
               <Shield className="w-4 h-4 text-emerald-500" />
               <span>Pagamento seguro · Pix, cartão de crédito ou boleto</span>

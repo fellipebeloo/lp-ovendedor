@@ -37,10 +37,10 @@ export default function StickyBar() {
           <span className="text-emerald-400 font-semibold">R$ 97</span>
         </div>
 
-        <button className="relative z-10 w-full sm:w-auto flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-500 text-white font-bold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-brand-500/20 active:scale-95">
+        <a href="https://pay.kiwify.com.br/lo9JhQG" target="_blank" rel="noopener noreferrer" className="relative z-10 w-full sm:w-auto flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-500 text-white font-bold px-6 py-3 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-brand-500/20 active:scale-95">
           Garantir vaga
           <ArrowRight className="w-4 h-4" />
-        </button>
+        </a>
 
       </div>
     </div>

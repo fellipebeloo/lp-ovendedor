@@ -47,10 +47,10 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="animate-fade-in-up" style={{ animationDelay: '400ms' }}>
-          <button className="group relative inline-flex items-center justify-center gap-3 bg-brand-600 hover:bg-brand-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)] focus:ring-4 focus:ring-brand-500/50 w-full sm:w-auto">
+          <a href="https://pay.kiwify.com.br/lo9JhQG" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-3 bg-brand-600 hover:bg-brand-500 text-white font-bold text-lg px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_-10px_rgba(249,115,22,0.5)] focus:ring-4 focus:ring-brand-500/50 w-full sm:w-auto">
             Garantir minha vaga por R$ 97
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-          </button>
+          </a>
           <div className="flex items-center justify-center gap-2 mt-4 text-sm text-slate-400">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
             <span>Acesso imediato após confirmação. Certificado incluso.</span>
